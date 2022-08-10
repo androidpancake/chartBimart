@@ -1,4 +1,4 @@
-<?= $this->extend('dashboard');?>
+<?= $this->extend('layout/template');?>
 <?= $this->section('content')?>
 
 <div class="container">
@@ -33,8 +33,6 @@
             <?php endforeach;?>
         </tbody>
     </table>
-    
-    
 </div>
 <script>
     document.addEventListener('DOMContentLoaded', function () {

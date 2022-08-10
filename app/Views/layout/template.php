@@ -4,11 +4,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Marketplace</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <!-- <link rel="stylesheet" href="css/style/style.css"> -->
     <!-- fontawesome icon -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- GoogleIcon -->
+    <!-- BS icon -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <!-- GoogleFonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,6 +17,8 @@
     <!-- HighCharts -->
     <script src="https://code.highcharts.com/highcharts.js"></script>
     <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style/style.css">
 </head>
   <style>
     #navBar {
@@ -34,7 +36,7 @@
   </style>
   <body>
     <!-- top nav -->
-        <ul class="nav nav-pills justify-content-end navAtas bg-primary">
+        <ul class="nav nav-pills justify-content-end navAtas bg-blue">
           <li class="nav-item">
             <a class="nav-link active rounded-0 text-white" aria-current="page" href="#">
               <i class="bi bi-shop"></i>
@@ -73,7 +75,7 @@
         <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand bima" href="#"><img src="" style="width: 86px;" alt=""></a>
+        <a class="navbar-brand bima" href="#"><img src="img/logo.png" style="width: 86px;" alt=""></a>
     
         <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
           <ul class="navbar-nav mb-2 mb-lg-0">
@@ -140,7 +142,7 @@
     <!-- end content -->
 
     <!-- footer -->
-      <footer class="p-5 bg-primary text-white">
+      <footer class="p-5 bg-darkblue text-white">
         <div class="row">
           <div class="col-6 col-md-2 mb-3">
             <h5>BIMA</h5>
